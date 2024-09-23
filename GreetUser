@@ -1,0 +1,20 @@
+import time #Step 1: importing the time module
+
+from basics import current_time, current_hour
+
+#Step 2: Get the current hour
+current_time = time.localtime()  # This gets the current local time
+current_time = current_time.tm_hour # Extract the current hour (in 24-hour format)
+
+#Step3: Using conditions to determine the greetings
+if current_hour < 12:
+    print("Good Morning!")
+elif 12 <= current_hour < 18:
+    print("Good Afternoon")
+else:
+    print("Good Evening")
+
+
+
+
+
