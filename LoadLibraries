@@ -1,0 +1,27 @@
+# Load Libraries
+
+import pandas  # Import the pandas library for data manipulation and analysis
+
+from pandas.plotting import scatter_matrix  # Import the scatter_matrix function for visualizing relationships between numerical variables
+
+import matplotlib.pyplot as plt  # Import the pyplot module from matplotlib for creating visualizations
+
+from sklearn import model_selection  # Import the model_selection module for splitting data, cross-validation, and model tuning
+
+from sklearn.metrics import classification_report  # Import classification_report to display precision, recall, F1-score, and support
+
+from sklearn.metrics import confusion_matrix  # Import confusion_matrix to evaluate model performance by comparing predicted and actual values
+
+from sklearn.metrics import accuracy_score  # Import accuracy_score to calculate the accuracy of a model
+
+from sklearn.linear_model import LogisticRegression  # Import the LogisticRegression class for performing logistic regression classification
+
+from sklearn.tree import DecisionTreeClassifier  # Import the DecisionTreeClassifier class for building decision tree classifiers
+
+from sklearn.neighbors import KNeighborsClassifier  # Import the KNeighborsClassifier class for using the K-Nearest Neighbors algorithm
+
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis  # Import LinearDiscriminantAnalysis for dimensionality reduction and classification
+
+from sklearn.naive_bayes import GaussianNB  # Import GaussianNB class for using the Gaussian Naive Bayes algorithm
+
+from sklearn.svm import SVC  # Import SVC class for using the Support Vector Machine algorithm for classification
